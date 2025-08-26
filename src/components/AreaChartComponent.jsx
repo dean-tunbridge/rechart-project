@@ -10,10 +10,6 @@ import {
 } from 'recharts'
 
 const goals = [
-  { season: '2014/15', premier_league_goals: 975, la_liga_goals: 1009 },
-  { season: '2015/16', premier_league_goals: 1026, la_liga_goals: 1043 },
-  { season: '2016/17', premier_league_goals: 1064, la_liga_goals: 1118 },
-  { season: '2017/18', premier_league_goals: 1018, la_liga_goals: 1024 },
   { season: '2018/19', premier_league_goals: 1072, la_liga_goals: 983 },
   { season: '2019/20', premier_league_goals: 1034, la_liga_goals: 942 },
   { season: '2020/21', premier_league_goals: 1024, la_liga_goals: 953 },
@@ -29,6 +25,10 @@ const AreaChartComponent = () => {
         <YAxis />
         <XAxis dataKey="season" />
         <CartesianGrid strokeDasharray="5 5" />
+
+        <Tooltip />
+        <Legend />
+
         <Area
           type="monotone"
           dataKey="premier_league_goals"
