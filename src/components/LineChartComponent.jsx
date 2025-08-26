@@ -109,33 +109,33 @@ const LineChartComponent = () => {
           type="monotone"
           dataKey="premier_league_goals"
           stroke="#FF268C"
-          fill="#FF268C33"
+          fill="#FF268C"
         />
         <Line
           type="monotone"
           dataKey="la_liga_goals"
           stroke="#FFD500"
-          fill="#FFD50033"
+          fill="#FFD500"
         />
         <Line
           type="monotone"
           dataKey="bundesliga_goals"
           stroke="#E2001A"
-          fill="#E2001A33"
+          fill="#E2001A"
           name="Bundesliga"
         />
         <Line
           type="monotone"
           dataKey="serie_a_goals"
           stroke="#0066B2"
-          fill="#0066B233"
+          fill="#0066B2"
           name="Serie A"
         />
         <Line
           type="monotone"
           dataKey="ligue_1_goals"
           stroke="#003399"
-          fill="#00339933"
+          fill="#003399"
           name="Ligue 1"
         />
       </LineChart>
