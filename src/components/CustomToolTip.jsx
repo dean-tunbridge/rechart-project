@@ -4,11 +4,11 @@ export default function CustomToolTip({ active, payload, label }) {
       <div className="p-4 bg-slate-900 flex flex-col gap-4 rounded-md">
         <p className="text-medium text-lg">{label}</p>
 
-        <p className="text-sm text-text-[#FF268C]">
+        <p className="text-sm text-[#FF268C]">
           Premier League Goals:
           <span className="ml-2">{payload[0].value}</span>
         </p>
-        <p className="text-sm text-text-[#FFD500]">
+        <p className="text-sm text-[#FFD500]">
           La Liga Goals:
           <span className="ml-2">{payload[1].value}</span>
         </p>
