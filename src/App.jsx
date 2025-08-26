@@ -9,7 +9,8 @@ function App() {
     <>
       <div className="flex min-h-screen flex-col items-center justify-center px-4 md:px-8 xl:px-10">
         <div className="grid w-full gap-10 max-w-[1400px]">
-          <GridItem title="Goals per season in Top 5 leagues">
+          <h1 className="text-4xl">Goals per season in Top 5 leagues</h1>
+          <GridItem title="Area Chart">
             <AreaChartComponent />
           </GridItem>
           <GridItem title="Bar Chart">

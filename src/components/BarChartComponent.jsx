@@ -109,33 +109,33 @@ const BarChartComponent = () => {
           type="monotone"
           dataKey="premier_league_goals"
           stroke="#FF268C"
-          fill="#FF268C33"
+          fill="#FF268C"
         />
         <Bar
           type="monotone"
           dataKey="la_liga_goals"
           stroke="#FFD500"
-          fill="#FFD50033"
+          fill="#FFD500"
         />
         <Bar
           type="monotone"
           dataKey="bundesliga_goals"
           stroke="#E2001A"
-          fill="#E2001A33"
+          fill="#E2001A"
           name="Bundesliga"
         />
         <Bar
           type="monotone"
           dataKey="serie_a_goals"
           stroke="#0066B2"
-          fill="#0066B233"
+          fill="#0066B2"
           name="Serie A"
         />
         <Bar
           type="monotone"
           dataKey="ligue_1_goals"
           stroke="#003399"
-          fill="#00339933"
+          fill="#003399"
           name="Ligue 1"
         />
       </BarChart>
