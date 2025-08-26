@@ -1,4 +1,4 @@
-import { AreaChart, Area } from 'recharts'
+import { AreaChart, Area, ResponsiveContainer } from 'recharts'
 
 const goals = [
   { season: '2014/15', premier_league_goals: 975, la_liga_goals: 1009 },
@@ -15,11 +15,23 @@ const goals = [
 
 const AreaChartComponent = () => {
   return (
-    <AreaChart width={500} height={400} data={goals}>
-      <Area dataKey="premier_league_goals" />
-      <Area />
-      <Area />
-    </AreaChart>
+    <ResponsiveContainer width="100%" height="100%">
+      <AreaChart width={500} height={400} data={goals}>
+        <Area
+          type="monotone"
+          dataKey="premier_league_goals"
+          stroke="#FF268C"
+          fill="#37003C"
+        />
+        <Area
+          type="monotone"
+          dataKey="la_liga_goals"
+          stroke="#FFD500"
+          fill="#D50032"
+        />
+        <Area />
+      </AreaChart>
+    </ResponsiveContainer>
   )
 }
 
