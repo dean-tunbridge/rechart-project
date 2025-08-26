@@ -1,4 +1,5 @@
 import './App.css'
+import { GridItem } from './components/GridItem'
 
 function App() {
   return (
