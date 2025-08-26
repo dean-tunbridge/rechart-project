@@ -110,30 +110,35 @@ const BarChartComponent = () => {
           dataKey="premier_league_goals"
           fill="#FF268C"
           name="Premier League"
+          radius={[4, 4, 0, 0]}
         />
         <Bar
           type="monotone"
           dataKey="la_liga_goals"
           fill="#FFD500"
           name="La Liga"
+          radius={[4, 4, 0, 0]}
         />
         <Bar
           type="monotone"
           dataKey="bundesliga_goals"
           fill="#E2001A"
           name="Bundesliga"
+          radius={[4, 4, 0, 0]}
         />
         <Bar
           type="monotone"
           dataKey="serie_a_goals"
           fill="#0066B2"
           name="Serie A"
+          radius={[4, 4, 0, 0]}
         />
         <Bar
           type="monotone"
           dataKey="ligue_1_goals"
           fill="#003399"
           name="Ligue 1"
+          radius={[4, 4, 0, 0]}
         />
       </BarChart>
     </ResponsiveContainer>
