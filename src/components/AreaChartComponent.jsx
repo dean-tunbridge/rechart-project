@@ -110,12 +110,14 @@ const AreaChartComponent = () => {
           dataKey="premier_league_goals"
           stroke="#FF268C"
           fill="#FF268C33"
+          name="Premier League"
         />
         <Area
           type="monotone"
           dataKey="la_liga_goals"
           stroke="#FFD500"
           fill="#FFD50033"
+          name="La Liga"
         />
         <Area
           type="monotone"

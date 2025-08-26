@@ -110,12 +110,14 @@ const LineChartComponent = () => {
           dataKey="premier_league_goals"
           stroke="#FF268C"
           fill="#FF268C"
+          name="Premier League"
         />
         <Line
           type="monotone"
           dataKey="la_liga_goals"
           stroke="#FFD500"
           fill="#FFD500"
+          name="La Liga"
         />
         <Line
           type="monotone"
