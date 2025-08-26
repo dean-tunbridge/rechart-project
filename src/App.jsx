@@ -1,6 +1,8 @@
 import './App.css'
 import GridItem from './components/GridItem'
 import AreaChart from './components/AreaChart'
+import BarChart from './components/BarChart'
+import LineChart from './components/LineChart'
 
 function App() {
   return (
@@ -10,8 +12,12 @@ function App() {
           <GridItem title="Area Chart">
             <AreaChart />
           </GridItem>
-          <GridItem title="Bar Chart"></GridItem>
-          <GridItem title="Line Chart"></GridItem>
+          <GridItem title="Bar Chart">
+            <BarChart />
+          </GridItem>
+          <GridItem title="Line Chart">
+            <LineChart />
+          </GridItem>
         </div>
       </div>
     </>
