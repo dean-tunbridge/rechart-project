@@ -98,7 +98,7 @@ const goals = [
 const AreaChartComponent = () => {
   return (
     <ResponsiveContainer width="100%" height="100%">
-      <AreaChart width={500} height={400} data={goals}>
+      <AreaChart width={500} height={400} data={goals} margin={{ right: 30 }}>
         <YAxis />
         <XAxis dataKey="season" />
         <CartesianGrid strokeDasharray="5 5" />
