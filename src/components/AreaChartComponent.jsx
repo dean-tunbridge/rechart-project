@@ -9,6 +9,8 @@ import {
   Legend,
 } from 'recharts'
 
+import CustomToolTip from './CustomToolTip'
+
 const goals = [
   { season: '2014/15', premier_league_goals: 975, la_liga_goals: 1009 },
   { season: '2015/16', premier_league_goals: 1026, la_liga_goals: 1043 },
@@ -30,7 +32,7 @@ const AreaChartComponent = () => {
         <XAxis dataKey="season" />
         <CartesianGrid strokeDasharray="5 5" />
 
-        <Tooltip />
+        <Tooltip content={<CustomToolTip />} />
         <Legend />
 
         <Area
