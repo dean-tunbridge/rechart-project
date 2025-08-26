@@ -1,4 +1,11 @@
-import { AreaChart, Area, ResponsiveContainer } from 'recharts'
+import {
+  AreaChart,
+  Area,
+  ResponsiveContainer,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+} from 'recharts'
 
 const goals = [
   { season: '2014/15', premier_league_goals: 975, la_liga_goals: 1009 },
@@ -22,12 +29,14 @@ const AreaChartComponent = () => {
           dataKey="premier_league_goals"
           stroke="#FF268C"
           fill="#37003C"
+          stackId="1"
         />
         <Area
           type="monotone"
           dataKey="la_liga_goals"
           stroke="#FFD500"
           fill="#D50032"
+          stackId="1"
         />
         <Area />
       </AreaChart>
