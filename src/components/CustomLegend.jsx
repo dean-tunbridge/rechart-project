@@ -2,6 +2,9 @@ export default function CustomLegend({ payload }) {
   const nameKeyValues = {
     premier_league_goals: 'Premier League Goals',
     la_liga_goals: 'La Liga Goals',
+    bundesliga_goals: 'Bundesliga Goals',
+    serie_a_goals: 'Serie A Goals',
+    ligue_1_goals: 'Ligue 1 Goals',
   }
 
   if (payload)
