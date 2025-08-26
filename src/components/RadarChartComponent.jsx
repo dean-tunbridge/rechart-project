@@ -104,36 +104,34 @@ const RadarChartComponent = () => {
       <RadarChart cx="50%" cy="50%" outerRadius="80%" data={goals}>
         <Tooltip content={<CustomToolTip />} />
         <Legend content={<CustomLegend />} />
+        <PolarGrid />
+        <PolarAngleAxis dataKey="season" />
+        <PolarRadiusAxis />
         <Radar
-          type="monotone"
           dataKey="premier_league_goals"
           stroke="#FF268C"
           fill="#FF268C33"
           name="Premier League"
         />
         <Radar
-          type="monotone"
           dataKey="la_liga_goals"
           stroke="#FFD500"
           fill="#FFD50033"
           name="La Liga"
         />
         <Radar
-          type="monotone"
           dataKey="bundesliga_goals"
           stroke="#E2001A"
           fill="#E2001A33"
           name="Bundesliga"
         />
         <Radar
-          type="monotone"
           dataKey="serie_a_goals"
           stroke="#0066B2"
           fill="#0066B233"
           name="Serie A"
         />
         <Radar
-          type="monotone"
           dataKey="ligue_1_goals"
           stroke="#003399"
           fill="#00339933"

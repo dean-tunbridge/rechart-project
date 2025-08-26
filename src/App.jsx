@@ -3,6 +3,7 @@ import GridItem from './components/GridItem'
 import AreaChartComponent from './components/AreaChartComponent'
 import BarChartComponent from './components/BarChartComponent'
 import LineChartComponent from './components/LineChartComponent'
+import RadarChartComponent from './components/RadarChartComponent'
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           </GridItem>
           <GridItem title="Line Chart">
             <LineChartComponent />
+          </GridItem>
+          <GridItem title="RadarChart">
+            <RadarChartComponent />
           </GridItem>
         </div>
       </div>
