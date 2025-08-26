@@ -109,14 +109,14 @@ const AreaChartComponent = () => {
           type="monotone"
           dataKey="premier_league_goals"
           stroke="#FF268C"
-          fill="#37003C"
+          fill="#FF268C33"
           stackId="1"
         />
         <Area
           type="monotone"
           dataKey="la_liga_goals"
           stroke="#FFD500"
-          fill="#D50032"
+          fill="#FFD50033"
           stackId="1"
         />
         <Area
@@ -130,16 +130,16 @@ const AreaChartComponent = () => {
         <Area
           type="monotone"
           dataKey="serie_a_goals"
-          stroke="#FFA500"
-          fill="#FFA50033"
+          stroke="#0066B2"
+          fill="#0066B233"
           stackId="1"
           name="Serie A"
         />
         <Area
           type="monotone"
           dataKey="ligue_1_goals"
-          stroke="#228B22"
-          fill="#228B2233"
+          stroke="#003399"
+          fill="#00339933"
           stackId="1"
           name="Ligue 1"
         />
