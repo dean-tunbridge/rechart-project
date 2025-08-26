@@ -1,7 +1,7 @@
 export default function CustomToolTip({ active, payload, label }) {
   if (active && payload && payload.length) {
     return (
-      <div className="p-4 bg-slate-900 flex flex-col gap-4 rounded-md">
+      <div className="p-4 bg-black/80 flex flex-col gap-4 rounded-md">
         <p className="text-medium text-lg">{label}</p>
 
         <p className="text-sm text-[#FF268C]">
