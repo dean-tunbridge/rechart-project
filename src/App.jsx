@@ -1,8 +1,8 @@
 import './App.css'
 import GridItem from './components/GridItem'
-import AreaChart from './components/AreaChart'
-import BarChart from './components/BarChart'
-import LineChart from './components/LineChart'
+import AreaChartComponent from './components/AreaChartComponent'
+import BarChartComponent from './components/BarChartComponent'
+import LineChartComponent from './components/LineChartComponent'
 
 function App() {
   return (
